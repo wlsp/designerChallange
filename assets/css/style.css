@@ -1,0 +1,461 @@
+/*  
+Assets:
+font-family: 'Roboto', sans-serif; 
+Farben: #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+
+/* Page Setting */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header Styling:not(h1) */
+
+h2,
+h3,
+h4,
+h5 {
+  font-size: 3.5em;
+}
+
+/* Section: Start 1st Page */
+
+#start {
+  height: 50vw;
+  background-image: url(../img/ilustracion1.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position-y: top;
+}
+
+/* Fixed Elephant-Logo */
+
+header > a > img {
+  width: 2.3em;
+  height: 2.8em;
+  position: fixed;
+  left: 2%;
+  top: 6%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  padding-top: 3%;
+}
+
+header h6 {
+  font-size: 1.5em;
+  line-height: 0.7em;
+}
+
+header span {
+  font-size: 0.5em;
+  font-weight: 400;
+}
+
+#start div {
+  display: inline-block;
+  margin-top: 15%;
+  margin-left: 8%;
+  width: 50%;
+}
+
+h1 {
+  font-size: 4.5em;
+}
+
+#start p {
+  font-size: 1.5em;
+  font-weight: 100;
+  padding-top: 3%;
+  padding-bottom: 25%;
+  width: 85%;
+}
+
+#start a {
+  text-decoration: none;
+  font-size: 0.8em;
+  font-weight: 700;
+  color: #ff3571;
+}
+
+/* Section: Gallery */
+
+#gallery {
+  height: 70vw;
+  background-image: url(../img/gallery.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Section: Idea */
+
+#idea {
+  height: 125vw;
+}
+
+#idea div:nth-of-type(1) {
+  display: flex;
+}
+
+#idea h2 {
+  padding-left: 10%;
+  width: 35%;
+}
+
+#idea div:nth-of-type(1) p {
+  font-size: 1.2em;
+  font-weight: 100;
+  line-height: 1.8em;
+  padding-left: 8%;
+  width: 52%;
+}
+
+h3 {
+  width: 60%;
+  padding: 8% 0 15% 10%;
+  position: relative;
+}
+
+#idea aside {
+  font-size: 1.2em;
+  line-height: 1.8em;
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  margin-bottom: 10%;
+  margin-left: 5%;
+}
+
+/* Aside 1 */
+
+#idea aside:nth-of-type(1) p {
+  font-weight: 100;
+  margin: 0;
+  width: 32%;
+}
+
+/* Aside 2 */
+
+#idea aside:nth-of-type(2) p {
+  font-weight: 100;
+  margin: 0;
+  width: 32%;
+}
+
+.iconAside {
+  width: 2.5%;
+  height: 2.5%;
+  position: relative;
+  left: 8%;
+}
+
+#idea div:nth-of-type(2) {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#idea div > p {
+  margin-top: 2.5%;
+  font-size: 1.3em;
+  font-weight: 100;
+  line-height: 2em;
+}
+
+/* Setting the Height for all Step-Sections # */
+
+#step01,
+#step02,
+#step03,
+#step04 {
+  height: 40vw;
+}
+
+/* Styling: Sectin01 */
+
+#step01 div,
+#step03 div {
+  display: flex;
+  position: relative;
+  width: auto;
+  margin-left: 55%;
+  top: 25%;
+}
+
+#step01 h2,
+#step03 h2 {
+  font-size: 5em;
+  position: absolute;
+  color: #dddddd;
+  top: -60%;
+}
+
+#step01 figure img,
+#step03 figure img {
+  position: absolute;
+  display: flex;
+  width: 40%;
+  left: 10%;
+}
+
+#step01 p,
+#step03 p {
+  font-size: 1.2em;
+  line-height: 2.3em;
+  font-weight: 100;
+  width: 95.3%;
+}
+
+#step01 span,
+#step03 span {
+  font-size: 2.4em;
+}
+
+/* Section 02 */
+
+#step02 div,
+#step04 div {
+  display: flex;
+  position: relative;
+  width: auto;
+  margin-left: 10%;
+  top: 30%;
+}
+
+#step02 h2,
+#step04 h2 {
+  font-size: 5em;
+  position: absolute;
+  color: #dddddd;
+  top: -60%;
+}
+
+#step02 figure img,
+#step04 figure img {
+  position: absolute;
+  display: flex;
+  width: 40%;
+  left: 55%;
+}
+
+#step02 p,
+#step04 p {
+  font-size: 1.2em;
+  line-height: 2.3em;
+  font-weight: 100;
+  width: 48%;
+}
+
+#step02 span,
+#step04span {
+  font-size: 2.4em;
+}
+
+/* Section03 */
+
+#step03 div {
+  display: flex;
+  position: relative;
+  width: auto;
+  margin-left: 13%;
+  top: 25%;
+}
+
+#step03 h2 {
+  font-size: 5em;
+  position: absolute;
+  color: #dddddd;
+  margin-left: 48%;
+  top: -70%;
+}
+
+#step03 figure img {
+  position: absolute;
+  display: flex;
+  width: 40%;
+  left: 10%;
+}
+
+#step03 p {
+  font-size: 1.2em;
+  line-height: 2.3em;
+  font-weight: 100;
+  width: 48%;
+}
+
+#step03 span {
+  font-size: 2.4em;
+}
+
+/* Section 04 */
+
+#step04 div {
+  display: flex;
+  position: relative;
+  width: auto;
+  margin-left: 10%;
+}
+
+#step04 h2 {
+  font-size: 5em;
+  position: absolute;
+  color: #dddddd;
+}
+
+#step04 figure img {
+  position: absolute;
+  display: flex;
+  width: 40%;
+  left: 54%;
+}
+
+#step04 p {
+  font-size: 1.2em;
+  line-height: 2.3em;
+  font-weight: 100;
+  width: 50%;
+}
+
+#step04 span {
+  font-size: 2.4em;
+}
+
+/* Footer */
+
+footer {
+  height: 45vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer div {
+  height: 100%;
+  text-align: center;
+  padding-top: 10%;
+  margin: 0;
+}
+
+footer p {
+  font-size: 1.5em;
+  font-weight: 100;
+  margin-top: 8%;
+}
+
+footer input {
+  height: 3.2em;
+  width: 85%;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 400;
+  border-radius: 5px;
+  border: transparent;
+  box-shadow: 0px 0px 30px 0px #8c98d62c;
+}
+
+::placeholder {
+  color: #bdbdbd;
+}
+
+footer button {
+  background-color: #ff3571;
+  font-size: 1.1em;
+  font-weight: 300;
+  color: white;
+  margin-top: 5%;
+  height: 3.7em;
+  width: 15em;
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+footer button:hover {
+  background: #3a28c1;
+  -webkit-linear-gradient: right, #3a28c1, #ff3572;
+  -moz-linear-gradient: right, #3a28c1, #ff3572;
+  background: linear-gradient(to left, #3a28c1, #ff3572);
+}
+
+#footnote {
+  text-align: left;
+  font-size: 1.3em;
+  font-weight: 100;
+  padding-left: 10%;
+  padding-bottom: 1.5%;
+}
+
+/* -----  A n i m a t i o n s ----- */
+
+/* = = = = = Floating = = = = =  */
+.float {
+  top: 10%;
+  left: 52%;
+  height: 85%;
+}
+
+.float {
+  animation-name: fly;
+  animation-duration: 2.5s;
+  animation-delay: 0.2ms;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fly {
+  from {
+    transform: translateY(-100px);
+  }
+  to {
+    transform: translateY(30px);
+  }
+}
+
+/* = = = = Rocket Launch = = = = =  */
+
+.rocket {
+  animation-name: launch;
+  animation-duration: 2.5s;
+  animation-delay: 0.9ms;
+  animation-iteration-count: infinite;
+}
+
+@keyframes launch {
+  0% {
+    transform: translatex(0px) translatey(0px);
+  }
+  100% {
+    transform: translatex(815px) translatey(-500px);
+  }
+}
+
+/* = = = = Pulsing Heart = = = = = */
+
+.pulsing {
+  width: 2.5%;
+  animation-name: pulsing;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform: scale(0.5);
+  animation: pulsing 1.5s infinite;
+}
+
+@keyframes pulsing {
+  0% {
+    transform: scale(0.95);
+  }
+  70% {
+    transform: scale(1.35);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
